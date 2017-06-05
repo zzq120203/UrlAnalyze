@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf8"?>
+<ICTCLAS>
+    <Person>On</Person>//On:\D4\D8\C8\EB\C8\CB\C3\FBʶ\B1\F0ģ\BF\E9; Off:ȥ\B3\FD\C8\CB\C3\FBʶ\B1\F0ģ\BF\E9
+    <Location>On</Location>//On:\D4\D8\C8\EB\B5\D8\C3\FBʶ\B1\F0ģ\BF\E9; Off:ȥ\B3\FD\B5\D8\C3\FBʶ\B1\F0ģ\BF\E9
+    <Orgnization>On</Orgnization>//On:\D4\D8\C8\EB\BB\FA\B9\B9\C3\FBʶ\B1\F0ģ\BF\E9; Off:ȥ\B3\FD\BB\FA\B9\B9\C3\FBʶ\B1\F0ģ\BF\E9
+    <Tagger>On</Tagger>//On: \D4\D8\C8\EB\B4\CA\D0Ա\EAעģ\BF\E9; Off: ȥ\B3\FD\B4\CA\D0Ա\EAעģ\BF\E9
+    <DataPath>rs</DataPath>//Data\CEļ\FE\BC\D0·\BE\B6
+    <UserDict>On</UserDict>//On\A3\BAUser Dictionary applied; Off: not applied\A3\BB
+    <FieldDict>On</FieldDict>//On\A3\BAField Dictionary applied; Off: not applied\A3\BB
+    <UserDictPrior>On</UserDictPrior>//\D3û\A7\B4ʵ\E4\D3\C5\CF\C8
+    <Log>On</Log>//On, Off\A3\BB\C0\FD\C8磺Off: \B9ر\D5\C8\D5־\B9\A6\C4ܣ\BBOn: \B4\F2\BF\AA\C8\D5־\B9\A6\C4\DC
+    <Key>f8ei9zh7ang!#5$</Key>//Encrypt key
+    <version>5.0.20110216</version>//ϵͳ\B0汾\BA\C5
+    <Modify>2011-08-16</Modify>//ϵͳ\D7\EE\BD\FC\D0޶\A9ʱ\BC\E4
+    <Lexicon>2010-12-09</Lexicon>//\B4ʵ\E4\D7\EE\BD\FC\D0޶\A9ʱ\BC
+    <MaxBlockQueue>1</MaxBlockQueue>
+    <MaxTransmitThreadCount>1</MaxTransmitThreadCount>        
+    <MaxLogicProcThreadCount>1</MaxLogicProcThreadCount>        
+    <redisConfigStr>STL://10.136.140.156:26379</redisConfigStr> //STL://192.168.11.95:26789
+    <RdbUrl>jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.144.16.60)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST=10.144.16.61)(PORT = 1521))(LOAD_BALANCE = yes)(FAILOVER = ON)(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = meta)))</RdbUrl> //jdbc:mysql://10.136.130.195:3306/wx
+    <RdbDriver>oracle.jdbc.driver.OracleDriver</RdbDriver> //com.mysql.jdbc.Driver
+    <RdbPwd>wxbxgs</RdbPwd> //newpassword
+    <RdbUser>wx</RdbUser> //root
+    <MppDataCenter>data-wxq</MppDataCenter> 
+    <MppKeySpace>ks_new</MppKeySpace> 
+    <MppConnAddress>10.136.132.113</MppConnAddress> 
+    <MppPort>9042</MppPort> 
+    <MppUserName>cassandra</MppUserName> 
+    <MppPassword>cassandra</MppPassword> 
+    <OriMessMQAddress>10.144.32.16</OriMessMQAddress> 
+    <OriMessMQPort>9876</OriMessMQPort> 
+    <OriMessConsumerGroup>urlgroup</OriMessConsumerGroup> 
+    <OriMessTopic>url_msg</OriMessTopic> 
+    <simpleSenderPath>depends</simpleSenderPath>
+    <InfoFilePath>D:\\working\\外链\\info</InfoFilePath> //D:\\文档\\外链\\同步配置 /home/UrlAnalyze/JFILE/SEND
+    <DetailFilePath>D:\\working\\外链\\detail</DetailFilePath>/home/UrlAnalyze/JFILE/RECEIVE D:\\文档\\外链\\同步配置\\detail
+    <RDBTableNameOfWl>t_links_v1</RDBTableNameOfWl>
+    <persistInterval>3</persistInterval>
+    <consumerNameSrv>10.136.140.158:9876</consumerNameSrv>//10.136.140.158:9876   192.168.11.95:9876
+    <logConfig>log4j2.xml</logConfig>
+    <destopwords>true</destopwords>
+    <MQTopicName>url_test</MQTopicName>
+    <consumerInstanceName>consumer1</consumerInstanceName>
+    <maxBlockQueue>20</maxBlockQueue>
+    <MaxBlockingQueueCapacity>50</MaxBlockingQueueCapacity>
+    <RefreshSeconds>10</RefreshSeconds>
+    <Transmit>NO</Transmit> //YES OR NO
+    <publicsite>gov.cn;xinhuanet.com;people.com.cn;chinadaily.com.cn;china.com.cn;cctv.com;cri.cn;youth.cn;ce.cn</publicsite>
+    <URLConsumerNameSrv>xxxxxx</URLConsumerNameSrv>
+	<URLConsumerInstanceName>xxxxxx</URLConsumerInstanceName>
+	<getURLTopic>xxxxxx</getURLTopic>
+	<putURLTopic>xxxxxx</putURLTopic>
+	<isRocketmq>false</isRocketmq>//true | false
+	<BFexpectedInsertions>100000</BFexpectedInsertions>
+	<stopUrlData>true</stopUrlData>//true | false
+	<WhiteList>优惠券;淘宝;天猫;推荐理由;包邮;淘口令;京东</WhiteList>
+	<stdbUrl>jdbc:oscar://10.136.128.41:1521/orcl</stdbUrl>
+	<stdbDriver>com.oscar.Driver</stdbDriver>
+    <stdbPwd>ICP_TMP_USER</stdbPwd>
+    <stdbUser>ICP_TMP_USER</stdbUser>
+</ICTCLAS>
+
